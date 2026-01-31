@@ -1,0 +1,150 @@
+.header_menu{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: rgba(138, 170, 211);
+    padding: 18px;
+}
+@keyframes respiration {
+    0% {
+        box-shadow: 0 0 0 0 rgba(251, 0, 121, 0.4);
+    }
+    70% {
+        /* L'ombre s'étend et devient plus transparente */
+        box-shadow: 0 0 0 10px rgba(251, 0, 121, 0);
+    }
+    100% {
+        box-shadow: 0 0 0 0 rgba(251, 0, 121, 0);
+    }
+}
+a{
+    text-decoration: none;
+    background-color: transparent;
+}
+.menu_club{
+    color: black;
+    font-size: 20px;
+    font-family: "Sekuya", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    transition: all 0.3s ease-in-out;
+}
+.menu_club:hover{
+    background-color: white;
+    animation: respiration 1.5s infinite;
+    padding:6px;
+    border-radius: 15px;
+    cursor: pointer;
+
+}
+.menu_equipe{
+    color: black;
+    font-size: 20px;
+    font-family: "Sekuya", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    transition: all 0.3s ease-in-out;
+}
+.menu_equipe:hover{
+    background-color: white;
+    animation: respiration 1.5s infinite;
+    padding:6px;
+    border-radius: 15px;
+    cursor: pointer;
+
+}
+
+.menu_resultat{
+    color: black;
+    font-size: 20px;
+    font-family: "Sekuya", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    transition: all 0.3s ease-in-out;
+}
+.menu_resultat:hover {
+    background-color: white;
+    animation: respiration 1.5s infinite;
+    padding: 6px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+.menu_accueil{
+    color: black;
+    font-size: 20px;
+    font-family: "Sekuya", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    transition: all 0.3s ease-in-out;
+}
+.menu_accueil:hover{
+    background-color: white;
+    animation: respiration 1.5s infinite;
+    padding: 6px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+.logo_menu{
+    width:80px;
+    height: 80px;
+}
+.equipe_rl{
+    font-family: "BBH Bogle", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 20px;
+    box-sizing: border-box;
+}
+.container{
+    padding: 10px;
+    margin-top: 30px;
+}
+.illustrtion-rl{
+    width: 100%;
+    height: 100%;
+}
+.joueurs{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    column-gap:80px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.godzzi{
+    font-family: "BBH Bartle", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25px;
+    flex: auto;
+    text-align: center;
+    border: solid 1px black;
+    height: 180px;
+}
+.scary{
+    font-family: "BBH Bartle", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25px;
+    flex: auto;
+    text-align: center;
+    border: solid 1px black;
+    height: 180px;
+}
+.gab{
+    font-family: "BBH Bartle", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25px;
+    flex: auto;
+    text-align: center;
+    border: solid 1px black;
+    height: 180px;
+}
+.footer{
+    background-color: rgba(138, 170, 211);
+}
